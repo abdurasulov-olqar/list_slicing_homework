@@ -10,6 +10,8 @@ def main(list1):
     i = 0
     list2 = []
     while i < m:
-        list2.append(list1.pop())
+        
+        list2.append(list1[(i+1)*(-1)])
         i += 1
     return list2
+
