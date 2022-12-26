@@ -6,4 +6,11 @@ def main(numbers):
     Returns:
         list: return answer.
     """
-    return
+    num1 = []
+    i = 0
+    while len(numbers) > i:
+        if i%2 == 0:
+            num1.append(numbers[i])
+        i+=1
+
+    return num1

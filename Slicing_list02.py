@@ -6,4 +6,10 @@ def main(list1):
     Returns:
         list: return answer.
     """
-    return
+    m = len(list1)
+    i = 0
+    list2 = []
+    while i < m:
+        list2.append(list1.pop())
+        i += 1
+    return list2

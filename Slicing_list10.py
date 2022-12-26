@@ -7,4 +7,12 @@ def main(list1,n):
     Returns:
         list: return answer.
     """
-    return
+    list2 = list1[n:]
+    m = len(list2)
+    i = 0
+    list3 = []
+    while i < m:
+        list3.append(list2.pop())
+        i += 1
+    return list3
+print(main(['a', 'b', 'c', 'd', 'e', 'f'],3))
